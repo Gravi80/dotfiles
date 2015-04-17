@@ -1,0 +1,12 @@
+A script that makes navigating in the terminal much faster.
+
+brew install z
+
+Once you've installed it, add the following to your .zshrc (including the . at the beginning).
+
+. `brew --prefix`/etc/profile.d/z.sh
+
+
+Instead of doing cd ~/Somefolder/Anotherfolder/project/, you can just do z proj.
+
+It keeps track of your cd to directories in a file called ~/.z - Once you've cd'd into a directory once, you can use z to navigate to it.

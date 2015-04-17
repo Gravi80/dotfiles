@@ -1,0 +1,63 @@
+To find out notes directory Mac
+================================
+lsof -c Notes | GREP /Users/
+
+cd /Users/Ravi/Library/Containers/com.apple.Notes/Data/Library/Notes/
+tar -cf ~/Desktop/notes.zip .
+
+
+
+
+Find for a text
+================
+find . -type f -name "*.py" -exec grep -H 'search_text' {} \;
+
+
+grep -rnw 'directory' -e "pattern"
+
+-r is recursive, -n is line number and -w stands match the whole word.
+
+
+SCP(Secured Copy)
+=================
+
+scp source destination
+
+scp remote_username@remotehost:/file/path/foobar.txt /some/local/directory
+
+
+
+TMUX
+=====
+tmux new -s ~/Desktop/demo
+tmux kill-session
+tmux attach -t ~/Desktop/demo
+
+
+split verticaly => ctrl+b   % 
+split verticaly => ctrl+b "
+toggel => ctrl+b arrowkey
+
+
+
+SSH
+====
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
+
+sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist
+
+
+
+Hidden files
+=============
+
+defaults write com.apple.finder AppleShowAllFiles true
+
+killall Finder
+
+
+
+know ur public IP
+=================
+curl icanhazip.com
+

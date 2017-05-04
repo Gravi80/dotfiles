@@ -10,3 +10,6 @@ source ~/.sublime.plugin.zsh
 
 ### for running z tool
 . `brew --prefix`/etc/profile.d/z.sh
+
+archey -c
+cn(){ ARG1=${1:-1};echo "Enjoy🍺, I Will be awake for $ARG1 hour(s)";caffeinate -t $(( $ARG1 * 60 * 60 ));}

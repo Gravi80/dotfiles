@@ -5,6 +5,8 @@ alias rp='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.lo
 
 export PATH=/usr/local/bin:$PATH
 
+ZSH_THEME="powerlevel9k/powerlevel9k"
+
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.sublime.plugin.zsh
 

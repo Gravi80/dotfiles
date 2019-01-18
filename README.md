@@ -6,6 +6,9 @@ brew cask install iterm2
 ZSH 
 ----
 brew install zsh zsh-completions zsh-autosuggestions zsh-syntax-highlighting
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 ```
 vi ~/.zshrc
 	source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh

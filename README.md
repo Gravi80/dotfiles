@@ -5,7 +5,7 @@ brew cask install iterm2
 
 ZSH 
 ----
-brew install z zsh-completions zsh-autosuggestions zsh-syntax-highlighting
+brew install zsh zsh-completions zsh-autosuggestions zsh-syntax-highlighting
 ```
 vi ~/.zshrc
 	source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh

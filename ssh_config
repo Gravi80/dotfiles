@@ -1,0 +1,10 @@
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+Host github.bus.<some-private>.do
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/other_id_rsa  
+Host <any-host>
+  IdentityFile ~/.ssh/other_id_rsa  
